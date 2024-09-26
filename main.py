@@ -26,28 +26,28 @@ def get():
         Main(
             Section(
                 Group(
-                    Img(src="icon-projetor-02.png", width="50"),
-                    Img(src="icon-projetor-03.png", width="50"),
-                    Img(src="icon-projetor-03.png", width="50"),
-                    Img(src="icon-projetor-05.png", width="50"),
-                    Img(src="icon-projetor-06.png", width="50"),
-                    Img(src="icon-projetor-07.png", width="50"),
+                    A(Img(src="icon-projetor-02.png", width="200"), href="#"),
+                    A(Img(src="icon-projetor-03.png", width="200"), href="#"),
+                    A(Img(src="icon-projetor-03.png", width="200"), href="#"),
+                    A(Img(src="icon-projetor-05.png", width="200"), href="#"),
+                    A(Img(src="icon-projetor-06.png", width="200"), href="#"),
+                    A(Img(src="icon-projetor-07.png", width="200"), href="#"),
                 ),
                 Group(
-                    Img(src="icon-projetor-08.png", width="50"),
-                    Img(src="icon-projetor-09.png", width="50"),
-                    Img(src="icon-tv-01.png", width="50"),
-                    Img(src="icon-tv-02.png", width="50"),
-                    Img(src="icon-linguas.png", width="50"),
-                    Img(src="icon-fisica.png", width="50"),
+                    A(Img(src="icon-projetor-08.png", width="200"), href="#"),
+                    A(Img(src="icon-projetor-09.png", width="200"), href="#"),
+                    A(Img(src="icon-tv-01.png", width="200"), href="#"),
+                    A(Img(src="icon-tv-02.png", width="200"), href="#"),
+                    A(Img(src="icon-linguas.png", width="200"), href="#"),
+                    A(Img(src="icon-fisica.png", width="200"), href="#"),
                 ),
                 Group(
-                    Img(src="icon-matematica.png", width="50"),
-                    Img(src="icon-biologia.png", width="50"),
-                    Img(src="icon-quimica.png", width="50"),
-                    Img(src="icon-auditorio.png", width="50"),
-                    Img(src="icon-biblioteca.png", width="50"),
-                    Img(src="icon-quadra.png", width="50"),
+                    A(Img(src="icon-matematica.png", width="200"), href="#"),
+                    A(Img(src="icon-biologia.png", width="200"), href="#"),
+                    A(Img(src="icon-quimica.png", width="200"), href="#"),
+                    A(Img(src="icon-auditorio.png", width="200"), href="#"),
+                    A(Img(src="icon-biblioteca.png", width="200"), href="#"),
+                    A(Img(src="icon-quadra.png", width="200"), href="#"),
                 ),
             ),
             cls="container",
@@ -59,6 +59,11 @@ def get():
         ),
     )
     return page
+
+
+@rt("/agendar")
+def get():
+    return Titled("Agendar recurso")
 
 
 serve()
