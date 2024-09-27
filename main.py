@@ -28,7 +28,7 @@ def get():
                 Group(
                     A(Img(src="icon-projetor-02.png", width="200"), href="#"),
                     A(Img(src="icon-projetor-03.png", width="200"), href="#"),
-                    A(Img(src="icon-projetor-03.png", width="200"), href="#"),
+                    A(Img(src="icon-projetor-04.png", width="200"), href="#"),
                     A(Img(src="icon-projetor-05.png", width="200"), href="#"),
                     A(Img(src="icon-projetor-06.png", width="200"), href="#"),
                     A(Img(src="icon-projetor-07.png", width="200"), href="#"),
